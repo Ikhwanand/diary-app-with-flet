@@ -1,0 +1,58 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Flet-specific
+*.flet
+
+# Media uploads (if you want to ignore user-uploaded files)
+media/
+
+# Dependency directories
+node_modules/
+
+# Build and distribution directories
+build/
+dist/
+*.egg-info/
+
+# Sensitive information
+*.env
+.secrets
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Miscellaneous
+.tmp/
+temp/
+
+diary_project/__pycache__/
+diary/__pycache__/
+diary/migrations/
